@@ -1,2 +1,7 @@
 total_users,countries,device_types
 1000000,10,3
+
+"device_type", "users_count"
+"Tablet", 99908
+"Desktop",	299845
+"Mobile",	600247
