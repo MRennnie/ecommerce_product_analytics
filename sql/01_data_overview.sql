@@ -8,7 +8,7 @@ FROM users_behavior;
 -- users by device type
 SELECT
       device_type,
-      COUNT(*) AS users_cnt
+      COUNT(*) AS users_count
 FROM users_behavior
 GROUP BY device_type
-ORDER BY users_cnt;
+ORDER BY users_count;
