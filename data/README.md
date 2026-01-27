@@ -2,4 +2,13 @@
 Source dataset from Kaggle.
 This project uses PostgreSQL to store and analyze e-commerce user behavior data. 
 
-The Date folder contains csv files with query results, which are located in the Sql folder. The folder also contains the file "(part)_e_commerce_shopper_ehaviour_and_lifestyle.csv" with part of the database (50 rows out of 1 million).
+## Folder "Data"
+This project contains a "data" folder with CSV files used for demonstration and review purposes.
+### Included files:
+- "users_behavior_sample.csv" — a **sample of the original dataset (50 rows)** extracted from the full table (1M rows).  
+  This file is provided to showcase the data structure, column names and data types without sharing the full dataset.
+- "01.1-2_data_overview.csv" -
+
+## Notes:
+- The full dataset is not included in the repository due to size limitations.
+- Aggregated CSV files represent the **output of SQL queries** located in the `sql/` folder.
