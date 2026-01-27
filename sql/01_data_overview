@@ -5,9 +5,6 @@ SELECT
       COUNT(DISTINCT device_type) AS device_types
 FROM users_behavior;
 
-total_users,"countries","device_types"
-1000000,"10","3"
-
 -- users by device type
 SELECT
       device_type,
