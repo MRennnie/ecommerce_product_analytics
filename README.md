@@ -30,18 +30,6 @@ Key metrics include:
 - SQL (aggregations, subqueries, CTEs, window functions)
 - GitHub
 
-## Project Structure
-ecommerce-user-behavior-analysis/
-├── data/
-│ └── users_behavior.csv
-├── sql/
-│ ├── 01_data_overview.sql
-│ ├── 02_user_segments.sql
-│ ├── 03_conversion_analysis.sql
-│ ├── 04_cart_abandonment.sql
-│ ├── 05_revenue_drivers.sql
-│ └── 06_advanced_sql_analysis.sql
-
 ## Analysis Summary
 Key insights that can be derived from this analysis:
 - Conversion and cart abandonment vary significantly by device type
