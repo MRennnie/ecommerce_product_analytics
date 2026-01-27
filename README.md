@@ -2,7 +2,7 @@
 User behavior analysis: segmentation, conversion, cart abandonment revenue drivers (PostgreSQL)
 
 ## Project Overview
-This pet-project explores user behavior data from an e-commerce platform using PostgreSQL.
+The project explores user behavior data from an e-commerce platform using PostgreSQL.
 The goal is to analyze how users interact with the product, identify key behavioral patterns,
 and evaluate factors influencing conversion, cart abandonment, and revenue.
 
