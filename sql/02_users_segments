@@ -1,0 +1,14 @@
+SELECT
+      CASE
+          WHEN income_level::int < 30000 THEN '1. <30k'
+          WHEN income_level::int < 60000 THEN '2. 30k-60k'
+          WHEN income_level::int < 100000 THEN '3. 60k-100k'
+          ELSE '4. 100k+'
+      END AS income_segment,
+      COUNT(*) AS users_cnt,
+      ROUND(AVG(monthly_spend),2) AS avg_monthly_spend,
+      ROUND(AVG(average_order_value),2) AS avg_aov,
+      ROUND(AVG(purchase_conversion_rate),2) AS avg_conversion_rate
+FROM users_behavior
+GROUP BY income_segment
+ORDER BY income_segment
