@@ -1,5 +1,5 @@
 # SQL Files
-This folder contains SQL scripts for analytical views and metrics.
+This folder contains SQL scripts for analytical metrics.
 
 ## Data Quality Findings
 During exploratory data quality checks, it was identified that conversion-related metrics
