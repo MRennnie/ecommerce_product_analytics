@@ -12,3 +12,14 @@ SELECT
 FROM users_behavior
 GROUP BY impulse_buying_score
 ORDER BY impulse_buying_score
+
+-- users spending above average
+SELECT
+      user_id,
+      monthly_spend
+FROM users_behavior
+WHERE monthly_spend > (SELECT
+                              AVG(monthly_spend)
+                       FROM users_behavior)
+ORDER BY monthly_spend DESC
+
